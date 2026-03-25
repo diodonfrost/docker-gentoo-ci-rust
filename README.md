@@ -8,6 +8,12 @@ This image extends the official [`gentoo/stage3`](https://hub.docker.com/r/gento
 
 ## Usage
 
+### Pull the image
+
+```bash
+docker pull ghcr.io/diodonfrost/gentoo-ci-rust:latest
+```
+
 ### Just commands
 
 This project uses [just](https://github.com/casey/just) as a command runner.
