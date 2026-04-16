@@ -5,7 +5,7 @@ RUN echo 'USE="X opengl wayland icu harfbuzz"' >> /etc/portage/make.conf
 RUN emerge-webrsync && \
     emerge --quiet --noreplace \
     llvm-core/llvm \
-    llvm-core/lld && \
+    llvm-core/lld \
     llvm-core/clang && \
     rm -rf /var/cache/distfiles/*
 
