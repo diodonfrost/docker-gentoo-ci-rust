@@ -19,3 +19,6 @@ RUN emerge --quiet --noreplace \
     net-libs/webkit-gtk \
     gui-libs/gtk-layer-shell \
     dev-vcs/git
+
+RUN emerge --quiet --noreplace \
+    net-libs/webkit-gtk:4.1
